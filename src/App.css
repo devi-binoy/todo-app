@@ -1,0 +1,111 @@
+* {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(15deg,#181818,#E72178);
+  }
+
+  .todo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    min-height: 65vh;
+    background: linear-gradient(90DEG,rgb(0,0,0),rgb(46, 42, 42));
+    text-align: center;
+    margin: 15.55vh auto;
+    border-radius: 12px;
+    padding-bottom: 32px;
+  }
+  
+  h1 {
+    margin: 32px 0;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .todo-form {
+    margin-bottom: 32px;
+  }
+  
+  .todo-input {
+    padding: 1.5% 8% 1.5% 4%;
+    border-radius: 4px;
+    border: 2px solid #E72178;
+    outline: none;
+    width: 55%;
+    background: rgb(63, 44, 52);
+    color: #fff;
+  }
+  
+  .todo-input::placeholder {
+    color: #e2e2e2;
+  }
+  
+  .todo-button {
+    padding: 1.65% ;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#E72178, #1a1919);
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .todo-input.edit {
+    border: 2px solid #c8779a;
+    padding: 1.5% 8% 1.5% 4%;
+  }
+  
+  .todo-button.edit {
+    background: linear-gradient(#c8779a, #E72178);
+    padding: 1.65% ;
+  }
+  
+  .todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(#E72178, #1a1919);
+    padding: 1%;
+    border-radius: 5px;
+    width: 75%;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 125%;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 5px;
+    color: rgb(255, 253, 253);
+  }
+  
+  .edit-icon {
+    color: #fff;
+  }
+
+.done-icon {
+    margin-right: 5px;
+    color: rgb(255, 253, 253);
+  }
